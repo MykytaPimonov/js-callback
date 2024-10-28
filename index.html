@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>CV</title>
+  <meta name="author" content="Mykyta Pimonov">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="domWorker.js" defer></script>
+</head>
+
+<body>
+	<div id="w" itemscope itemtype="http://schema.org/Person">
+		<header class="clearfix">
+			<div id="info">			
+				<h1><span itemprop="name">Mykyta Pimonov</span></h1>
+				<h3><span itemprop="jobTitle">Java/Kotlin developer</span></h3>
+				<small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				  <span itemprop="addressLocality">Dnipro</span>, 
+				  <span itemprop="addressCountry">Ukraine</span>
+				</small>
+				<small><span itemprop="email">nikitapimonov6@gmail.com</span></small>
+			</div>
+			
+			<div id="photo">
+				<img src="images/just-me.jpg" alt="Mykyta Pimonov resume photo avatar" itemprop="image" />
+			</div>
+		</header>
+		
+		<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+			<h2 itemprop="name">Skillset</h2>
+			<section id="skills-left">
+				<h4 itemprop="about">Development</h4>
+				<ul>
+					<li itemprop="itemListElement">Java/Kotlin</li>
+					<li itemprop="itemListElement">Event source</li>
+					<li itemprop="itemListElement">Domain driven design</li>
+					<li itemprop="itemListElement">SQL</li>
+					<li itemprop="itemListElement">Docker</li>
+				</ul>
+			</section>
+		</section>
+		
+		<section id="education">
+			<h2>Past Education</h2>
+			<p><span itemprop="alumniOf">University of customs and finance</span> still to 2026.</p>
+		</section>
+		
+		<section id="experience">
+			<h2>Work Experience</h2>
+			<p>BG Crowd ~ 06.23-01.24</p>
+			<p>TeavDev ~ 02.24-Present</p>
+		</section>
+	</div>
+</body>
+</html>
